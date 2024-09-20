@@ -1,15 +1,13 @@
-import React from 'react';
-import Navbar from './Navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
+import Home from './Home.jsx';
 const App = () => {
   return (
     <>
-      <Navbar />
-      <div>
-        {}
-      </div>
+      <Home />
+
     </>
   );
-};
+}
 
 export default App;
